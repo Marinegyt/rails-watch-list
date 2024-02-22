@@ -2,11 +2,11 @@
 
 <div class='container'>
   <h1>My lists</h1>
+  <div class="cards">
       <% @lists.each do |list| %>
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://img.freepik.com/vecteurs-libre/bobine-film-aquarelle-grunge-background_1017-36655.jpg)">
             <%= link_to (list.name), list_path(list.id) %>
-          </div>
         </div>
       <% end %>
+  </div>
 </div>
