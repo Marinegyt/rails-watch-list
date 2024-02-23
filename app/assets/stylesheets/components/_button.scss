@@ -1,4 +1,10 @@
 .btn {
-  background-color: purple;
-  color: white
+  background-color: #7D0A0A;
+  color: white;
+  border-color: #7D0A0A;
+
+  &:hover {
+    background-color: #BF3131;
+    border-color: #BF3131;
+  }
 }
